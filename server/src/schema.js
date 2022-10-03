@@ -26,7 +26,7 @@ const typeDefs = gql`
   A coder is a person who writes code and does activities.
   """
   type Coder {
-    id: ID!
+    id: ID
     name: String!
     description: String
     activities: [Activity]

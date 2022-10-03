@@ -22,8 +22,8 @@ const resolvers = {
         return {
           code: 200,
           success: true,
-          message: `Successfully added coder ${id}`,
-          track,
+          message: `Successfully added coder ${name}`,
+          coder,
         };
       } catch (err) {
         console.log(err);

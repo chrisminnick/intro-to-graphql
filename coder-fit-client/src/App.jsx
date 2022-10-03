@@ -3,7 +3,7 @@ import { useQuery, gql } from '@apollo/client';
 import CodersList from './components/CodersList';
 import AddCoderForm from './components/AddCoderForm';
 
-const CODERS = gql`
+export const CODERS_QUERY = gql`
   query coders {
     coders {
       id
@@ -13,15 +13,16 @@ const CODERS = gql`
   }
 `;
 function App() {
-  const { loading, error, data } = useQuery(CODERS);
+  const { loading, error, data } = useQuery(CODERS_QUERY);
 
   if (loading) return 'Loading...';
   if (error) return `Error! ${error.message}`;
 
   return (
     <div className="App">
-      <CodersList coders={data.coders} />
       <AddCoderForm />
+
+      <CodersList coders={data.coders} />
     </div>
   );
 }

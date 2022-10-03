@@ -1,5 +1,8 @@
 import { gql, useMutation } from '@apollo/client';
 import { useState } from 'react';
+
+import { CODERS_QUERY } from '../App';
+
 const ADD_CODER = gql`
   mutation AddCoderMutation($name: String!, $description: String!) {
     addCoder(name: $name, description: $description) {
@@ -7,7 +10,6 @@ const ADD_CODER = gql`
       success
       message
       coder {
-        id
         name
         description
       }
@@ -21,7 +23,8 @@ function AddCoderForm() {
   });
 
   const [addCoder] = useMutation(ADD_CODER, {
-    variables: { name: newCoder.name, description: newCoder.name },
+    variables: { name: newCoder.name, description: newCoder.description },
+    refetchQueries: [{ query: CODERS_QUERY }],
     // to observe what the mutation response returns
     onCompleted: (data) => {
       console.log(data);
