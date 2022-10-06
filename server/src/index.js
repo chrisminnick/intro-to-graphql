@@ -8,21 +8,15 @@ const mocks = {
     coders: () => [...new Array(6)],
   }),
   Coder: () => ({
-    id: () => 'coder_01',
+    id: () => '1',
     name: () => 'Peter Lundlehart',
     description: () => 'A coder who codes.',
-    activities: () => [
-      {
-        id: 'activity_01',
-        name: 'Coding',
-        description: 'Coding is a thing that a coder does.',
-      },
-      {
-        id: 'activity_02',
-        name: 'Eating',
-        description: 'Eating is a thing that a coder does.',
-      },
-    ],
+    activities: () => [1],
+  }),
+  Activity: () => ({
+    id: () => '1',
+    name: () => 'Coding',
+    description: () => 'Coding is fun',
   }),
 };
 

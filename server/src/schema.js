@@ -29,7 +29,7 @@ const typeDefs = gql`
     id: ID
     name: String!
     description: String
-    activities: [Activity]
+    activities: [ID]
   }
 
   """
