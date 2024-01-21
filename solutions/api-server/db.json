@@ -1,52 +1,220 @@
 {
   "coders": [
     {
-      "id": 1,
+      "id": "1",
       "name": "John",
       "description": "John is a coder",
-      "activities": [1]
+      "activities": [
+        1
+      ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Jane",
       "description": "Jane is a coder",
-      "activities": [1, 2]
+      "activities": [
+        1,
+        2
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Jack",
       "description": "Jack is a coder",
-      "activities": [1, 2]
+      "activities": [
+        1,
+        2
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Jill",
       "description": "Jill is a coder",
-      "activities": [1, 2]
+      "activities": [
+        1,
+        2
+      ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Joe",
       "description": "Joe is a coder",
       "activities": []
     },
     {
+      "id": "6",
       "name": "Sally",
-      "description": "Sally is a coder.",
-      "id": 6,
+      "description": "Sally is a coder",
       "activities": []
+    },
+    {
+      "id": "7",
+      "name": "Mike",
+      "description": "Mike is a coder",
+      "activities": [
+        2
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Emily",
+      "description": "Emily is a coder",
+      "activities": []
+    },
+    {
+      "id": "9",
+      "name": "Chris",
+      "description": "Chris is a coder",
+      "activities": [
+        1
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Anna",
+      "description": "Anna is a coder",
+      "activities": [
+        3
+      ]
+    },
+    {
+      "id": "11",
+      "name": "David",
+      "description": "David is a coder",
+      "activities": [
+        4
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Linda",
+      "description": "Linda is a coder",
+      "activities": [
+        5
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Robert",
+      "description": "Robert is a coder",
+      "activities": [
+        6
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Sarah",
+      "description": "Sarah is a coder",
+      "activities": []
+    },
+    {
+      "id": "15",
+      "name": "Michael",
+      "description": "Michael is a coder",
+      "activities": [
+        7
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Lisa",
+      "description": "Lisa is a coder",
+      "activities": []
+    },
+    {
+      "id": "17",
+      "name": "Kevin",
+      "description": "Kevin is a coder",
+      "activities": [
+        8
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Catherine",
+      "description": "Catherine is a coder",
+      "activities": []
+    },
+    {
+      "id": "19",
+      "name": "Mark",
+      "description": "Mark is a coder",
+      "activities": []
+    },
+    {
+      "id": "20",
+      "name": "Laura",
+      "description": "Laura is a coder",
+      "activities": [
+        9
+      ]
+    },
+    {
+      "id": "3ae4",
+      "name": "Fred",
+      "description": "Fred is still a coder."
+    },
+    {
+      "id": "083f",
+      "name": "Todd",
+      "description": "Todd is a coder."
+    },
+    {
+      "id": "05ab",
+      "name": "Jimmy",
+      "description": "is a coder"
     }
   ],
   "activities": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Coding",
       "description": "Coding is fun"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Eating",
       "description": "Eating is fun"
+    },
+    {
+      "id": "3",
+      "name": "Gaming",
+      "description": "Gaming is exciting"
+    },
+    {
+      "id": "4",
+      "name": "Reading",
+      "description": "Reading is enriching"
+    },
+    {
+      "id": "5",
+      "name": "Running",
+      "description": "Running is healthy"
+    },
+    {
+      "id": "6",
+      "name": "Painting",
+      "description": "Painting is creative"
+    },
+    {
+      "id": "7",
+      "name": "Hiking",
+      "description": "Hiking is adventurous"
+    },
+    {
+      "id": "8",
+      "name": "Cooking",
+      "description": "Cooking is delicious"
+    },
+    {
+      "id": "9",
+      "name": "Swimming",
+      "description": "Swimming is refreshing"
+    },
+    {
+      "id": "10",
+      "name": "Traveling",
+      "description": "Traveling is exploring"
     }
   ]
 }

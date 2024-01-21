@@ -3,22 +3,12 @@ const resolvers = {
     coders: (_, __, { dataSources }) => {
       return dataSources.coderAPI.getAllCoders();
     },
-    activities: (_, __, { dataSources }) => {
-      return dataSources.coderAPI.getAllActivities();
-    },
-    coder: (_, { id }, { dataSources }) => {
-      return dataSources.coderAPI.getCoder(id);
-    },
-    activity: (_, { id }, { dataSources }) => {
-      return dataSources.coderAPI.getActivity(id);
-    },
   },
   Mutation: {
     // adds a new coder to the database
     addCoder: async (_, { name, description }, { dataSources }) => {
       try {
         const coder = await dataSources.coderAPI.addCoder(name, description);
-
         return {
           code: 200,
           success: true,
